@@ -1,7 +1,7 @@
 # 🍎 dotnetShop
 
-dotnetShop is a full-stack e-commerce project featuring a robust ASP.NET Core backend with JWT authentication and a responsive React frontend.  
-It follows clean architecture principles and modern API-first design to deliver a scalable and maintainable solution.
+dotnetShop is a full-stack e-commerce project featuring a robust ASP.NET Core backend with JWT authentication and a responsive React frontend. It follows clean architecture principles and modern API-first design to deliver a scalable and maintainable solution.
+
 
 ## 🚀 Features
 
