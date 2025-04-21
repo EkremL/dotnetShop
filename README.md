@@ -38,7 +38,11 @@ dotnetShop is a full-stack e-commerce project featuring a robust ASP.NET Core ba
 
 ## 📸 Screenshots
 
-> *Screenshots will be added soon...*
+![catalog](./Screenshots/ds1.png)
+![orderlist](./Screenshots/ds2.png)
+![orderDetail](./Screenshots/ds3.png)
+![productDetail](./Screenshots/ds4.png)
+![orderCheckout](./Screenshots/ds5.png)
 
 ## ⚙️ Getting Started
 
