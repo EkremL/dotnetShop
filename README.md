@@ -94,7 +94,7 @@ Make sure the backend is running and CORS is enabled.
 
 ## 📁 Project Structure (Simplified)
 dotnetShop/
-├── client/               # React frontend
+├── client/ 
 │   ├── src/
 │   ├── public/
 │   └── ...
