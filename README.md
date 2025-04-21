@@ -83,7 +83,7 @@ dotnet run
 5. Access Swagger at:
 http://localhost:5000/swagger/index.html
 
-💻 Frontend Setup
+### 💻 Frontend Setup
 If the frontend is inside a /client folder:
 
 cd client
@@ -92,7 +92,7 @@ npm run dev
 
 Make sure the backend is running and CORS is enabled.
 
-📁 Project Structure (Simplified)
+### 📁 Project Structure (Simplified)
 dotnetShop/
 ├── client/               # React frontend
 │   ├── src/
@@ -106,13 +106,13 @@ dotnetShop/
     ├── Services/
     └── Program.cs
 
-✍️ Developer
+### ✍️ Developer
 Ekrem Can Lale
 
-🤝 Contributing
+### 🤝 Contributing
 Feel free to fork the repo, open issues, or submit pull requests. All kinds of contributions are welcome!
 
-📄 License
+### 📄 License
 This project is open-source and available under the MIT License.
 
 
