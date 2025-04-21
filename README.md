@@ -1,21 +1,19 @@
-# 🛒 dotnetShop
+# 🍎 dotnetShop
 
-dotnetShop is a full-stack e-commerce project featuring a robust ASP.NET Core backend with JWT authentication and a responsive React frontend.
+dotnetShop is a full-stack e-commerce project featuring a robust ASP.NET Core backend with JWT authentication and a responsive React frontend.  
 It follows clean architecture principles and modern API-first design to deliver a scalable and maintainable solution.
-
 
 ## 🚀 Features
 
-- 🔐 JWT-based user authentication and role-based authorization
-- 🛍️ Product listing, filtering by category, and detailed views
-- 🛒 Cart operations (add/remove/update products)
-- 💳 Order creation and simulated checkout process
-- 🛠️ Admin panel for product and inventory management
-- 📡 RESTful API structure with clean controller/service architecture
-- 🧩 React frontend with component-based structure
-- 🌐 CORS-enabled for frontend-backend communication
-- 🧪 API documentation via Swagger
-
+- 🔐 JWT-based user authentication and role-based authorization  
+- 🍭 Product listing, filtering by category, and detailed views  
+- 🛒 Cart operations (add/remove/update products)  
+- 💳 Order creation and simulated checkout process  
+- 🛠️ Admin panel for product and inventory management  
+- 📡 RESTful API structure with clean controller/service architecture  
+- 🧹 React frontend with component-based structure  
+- 🌐 CORS-enabled for frontend-backend communication  
+- 🪪 API documentation via Swagger
 
 ## 🛠️ Technologies Used
 
@@ -34,15 +32,13 @@ It follows clean architecture principles and modern API-first design to deliver 
 - **Tailwind CSS** *(if applicable)*
 
 ### Tools & Others
-- **Postman** – API testing
-- **Visual Studio / VS Code**
+- **Postman** – API testing  
+- **Visual Studio / VS Code**  
 - **Git & GitHub**
 
 ## 📸 Screenshots
 
 > *Screenshots will be added soon...*
-
----
 
 ## ⚙️ Getting Started
 
@@ -59,11 +55,13 @@ It follows clean architecture principles and modern API-first design to deliver 
 ## 🔧 Backend Setup
 
 1. Clone the repository:
-bash
+```bash
 git clone https://github.com/EkremL/dotnetShop.git
 cd dotnetShop
+```
 
-2. Create a new appsettings.json file in the root folder:
+2. Create a new `appsettings.json` file in the root folder:
+```json
 {
   "ConnectionStrings": {
     "DefaultConnection": "Server=.;Database=dotnetShopDb;Trusted_Connection=True;"
@@ -73,35 +71,59 @@ cd dotnetShop
     "Issuer": "dotnetShopAPI"
   }
 }
+```
 
 3. Apply migrations & update the database:
+```bash
 dotnet ef database update
+```
 
 4. Run the backend:
+```bash
 dotnet run
+```
 
-5. Access Swagger at:
-http://localhost:5000/swagger/index.html
+5. Access Swagger at:  
+[http://localhost:5000/swagger/index.html](http://localhost:5000/swagger/index.html)
+
 
 ## 💻 Frontend Setup
-If the frontend is inside a /client folder:
 
+If the frontend is inside a `/client` folder:
+
+```bash
 cd client
 npm install
 npm run dev
+```
 
-Make sure the backend is running and CORS is enabled.
+> Make sure the backend is running and CORS is enabled.
+
 
 ## 📁 Project Structure (Simplified)
-dotnetShop/ ├── client/ # React frontend │ ├── src/ │ ├── public/ │ └── ... ├── API/ # ASP.NET Core backend │ ├── Controllers/ │ ├── Data/ │ ├── DTOs/ │ ├── Entity/ │ ├── Services/ │ └── Program.cs
 
+dotnetShop/
+├── client/                  # React frontend
+│   ├── src/
+│   ├── public/
+│   └── ...
+├── API/                     # ASP.NET Core backend
+│   ├── Controllers/
+│   ├── Data/
+│   ├── DTOs/
+│   ├── Entity/
+│   ├── Services/
+│   └── Program.cs
+```
 ## ✍️ Developer
-Ekrem Can Lale
+
+**Ekrem Can Lale**
 
 ## 🤝 Contributing
+
 Feel free to fork the repo, open issues, or submit pull requests. All kinds of contributions are welcome!
 
 ## 📄 License
-This project is open-source and available under the MIT License.
 
+This project is open-source and available under the [MIT License](LICENSE).
 
