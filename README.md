@@ -101,7 +101,7 @@ npm run dev
 
 
 ## 📁 Project Structure (Simplified)
-
+```
 dotnetShop/
 ├── client/                  # React frontend
 │   ├── src/
