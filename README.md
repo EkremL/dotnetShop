@@ -59,7 +59,7 @@ It follows clean architecture principles and modern API-first design to deliver 
 ## 🔧 Backend Setup
 
 1. Clone the repository:
-```bash
+bash
 git clone https://github.com/EkremL/dotnetShop.git
 cd dotnetShop
 
