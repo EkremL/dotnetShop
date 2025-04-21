@@ -93,18 +93,7 @@ npm run dev
 Make sure the backend is running and CORS is enabled.
 
 ## 📁 Project Structure (Simplified)
-dotnetShop/
-├── client/ 
-│   ├── src/
-│   ├── public/
-│   └── ...
-├── API/
-    ├── Controllers/
-    ├── Data/
-    ├── DTOs/
-    ├── Entity/
-    ├── Services/
-    └── Program.cs
+dotnetShop/ ├── client/ # React frontend │ ├── src/ │ ├── public/ │ └── ... ├── API/ # ASP.NET Core backend │ ├── Controllers/ │ ├── Data/ │ ├── DTOs/ │ ├── Entity/ │ ├── Services/ │ └── Program.cs
 
 ## ✍️ Developer
 Ekrem Can Lale
