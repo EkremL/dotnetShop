@@ -1,6 +1,11 @@
-# 🍎 dotnetShop
+#🛒 dotnetShop
+dotnetShop is a full-stack e-commerce project featuring a robust ASP.NET Core backend with JWT authentication and a responsive React frontend. It follows clean architecture principles and a modern API-first design to deliver a scalable and maintainable solution.
 
-dotnetShop is a full-stack e-commerce project featuring a robust ASP.NET Core backend with JWT authentication and a responsive React frontend. It follows clean architecture principles and modern API-first design to deliver a scalable and maintainable solution.
+Throughout the project, I actively reinforced my knowledge of ASP.NET Core's key features, such as dependency injection, middleware configuration, and controller-service separation — making this project not just a build, but a hands-on learning experience as well.
+
+In addition to standard e-commerce functionality, this application includes Iyzico payment integration, enabling secure and localized online transactions. This adds a real-world aspect to the project and simulates how professional systems interact with third-party payment providers.
+
+While the current version of dotnetShop is a simple-scale implementation, it provides a solid foundation for further development. Future improvements may include features such as order tracking, customer support chat, discount systems, and advanced analytics.
 
 
 ## 🚀 Features
