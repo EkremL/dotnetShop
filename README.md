@@ -11,10 +11,10 @@ While the current version of dotnetShop is a simple-scale implementation, it pro
 ## 🚀 Features
 
 - 🔐 JWT-based user authentication and role-based authorization  
-- 🍭 Product listing, filtering by category, and detailed views  
-- 🛒 Cart operations (add/remove/update products)  
+- 🍭 Product listing and detailed views  (first version)
+- 🛒 Cart operations (add/remove products)  
 - 💳 Order creation and simulated checkout process  
-- 🛠️ Admin panel for product and inventory management  
+- 🛠️ Admin panel for product and inventory management (disabled for now)
 - 📡 RESTful API structure with clean controller/service architecture  
 - 🧹 React frontend with component-based structure  
 - 🌐 CORS-enabled for frontend-backend communication  
