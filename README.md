@@ -5,7 +5,7 @@ Throughout the project, I actively reinforced my knowledge of ASP.NET Core's key
 
 In addition to standard e-commerce functionality, this application includes Iyzico payment integration, enabling secure and localized online transactions. This adds a real-world aspect to the project and simulates how professional systems interact with third-party payment providers.
 
-While the current version of dotnetShop is a simple-scale implementation, it provides a solid foundation for further development. Future improvements may include features such as order tracking, customer support chat, discount systems, and advanced analytics.
+While the current version of dotnetShop is a **simple-scale implementation**, it provides a solid foundation for further development. Future improvements may include features such as improved home page, order tracking, customer support chat, discount systems, admin panel and advanced analytics.
 
 
 ## 🚀 Features
@@ -25,10 +25,10 @@ While the current version of dotnetShop is a simple-scale implementation, it pro
 ### Backend
 - **.NET 9 / ASP.NET Core**
 - **Entity Framework Core**
-- **AutoMapper**
-- **SQL Server**
+- **DB SQLite** 
 - **JWT Authentication**
 - **Swagger (Swashbuckle)**
+
 
 ### Frontend
 - **React**
@@ -40,6 +40,7 @@ While the current version of dotnetShop is a simple-scale implementation, it pro
 - **Postman** – API testing  
 - **Visual Studio / VS Code**  
 - **Git & GitHub**
+- **Scala**
 
 ## 📸 Screenshots
 
@@ -55,7 +56,7 @@ While the current version of dotnetShop is a simple-scale implementation, it pro
 
 - [.NET 9 SDK](https://dotnet.microsoft.com/en-us/download)
 - [Node.js & npm](https://nodejs.org/)
-- [SQL Server or Azure Data Studio](https://learn.microsoft.com/en-us/sql/azure-data-studio/)
+- [DBSQLite) (for this version
 - [Visual Studio 2022+ / VS Code](https://code.visualstudio.com/)
 - (Optional) Postman
 
